@@ -1,0 +1,123 @@
+/*
+Theme Name: Posterity Dark
+Description: Posterity Dark is a child theme of Posterity. It is completely free with no paid version. Provides multilingual and RTL experience. Compatible with WooCommerce, CTA contact forms, SEO and page builder plugins like Gutenberg default editor blocks and Elementor. It comes with 63+ ready to import templates which means you have unlimited possibilities using this theme. Create your next website in any industry business, digital, online charity, construction, computer, startup or anything. Simple, flexible, easy to use and fully documented. https://www.sktthemesdemo.net/documentation/posterity-doc/
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Template: posterity
+Version: 1.5
+Tested up to: 6.8
+Requires PHP: 5.6
+Tags: theme-options, post-formats, two-columns, translation-ready
+Text Domain: posterity-dark
+*/
+
+.menu-container :focus{color:#f2b944;}
+.comments-area{background-color:transparent;}
+#reply-title, .comment-form p label{color:#FFF;}
+.layout-full_fixed div.about-author:before, .layout-full_fixed div.about-author:after, .layout-full_fixed .comments-area:before, .layout-full_fixed .comments-area:after{content: ""; background-color:transparent;}
+.posts-nav a span.title{color:#FFF;}
+.posts-nav a:hover span.title{color:#f2b944;}
+.post .post-meta a:hover{color:#f2b944;}
+.layout-full #content, .layout-full_fixed #content, .layout-full_padding #content{background-color: transparent;}
+h2.comments-title{color:#CCC;}
+.comment-author a{color:#FFF;}
+.comment-author a:hover{color:#f2b944;}
+
+/* Extra Styles */
+.gbposterity-dark-home-section1 *,
+.gbposterity-dark-home-section2 *,
+.gbposterity-dark-home-section3 *,
+.gbposterity-dark-home-section4 *,
+.gbposterity-dark-home-section5 *,
+.gbposterity-dark-home-section6 *,
+.gbposterity-dark-home-section7 *,
+.gbposterity-dark-home-section8 *,
+.gbposterity-dark-home-section9 *,
+.gbposterity-dark-home-section10 *{box-sizing: border-box;}
+
+.gbposterity-dark-home-section1 figure,
+.gbposterity-dark-home-section2 figure,
+.gbposterity-dark-home-section3 figure,
+.gbposterity-dark-home-section4 figure,
+.gbposterity-dark-home-section5 figure,
+.gbposterity-dark-home-section6 figure,
+.gbposterity-dark-home-section7 figure,
+.gbposterity-dark-home-section8 figure,
+.gbposterity-dark-home-section9 figure,
+.gbposterity-dark-home-section10 figure{margin: 0;}
+
+.gbposterity-dark-home-section1 iframe,
+.gbposterity-dark-home-section2 iframe,
+.gbposterity-dark-home-section3 iframe,
+.gbposterity-dark-home-section4 iframe,
+.gbposterity-dark-home-section5 iframe,
+.gbposterity-dark-home-section6 iframe,
+.gbposterity-dark-home-section7 iframe,
+.gbposterity-dark-home-section8 iframe,
+.gbposterity-dark-home-section9 iframe,
+.gbposterity-dark-home-section10 iframe{display: block;}
+
+.gbposterity-dark-home-section1 img,
+.gbposterity-dark-home-section2 img,
+.gbposterity-dark-home-section3 img,
+.gbposterity-dark-home-section4 img,
+.gbposterity-dark-home-section5 img,
+.gbposterity-dark-home-section6 img,
+.gbposterity-dark-home-section7 img,
+.gbposterity-dark-home-section8 img,
+.gbposterity-dark-home-section9 img,
+.gbposterity-dark-home-section10 img{height: auto !important; max-width: 100% !important; width: auto !important;}
+.gbposterity-dark-home-section2 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap{display: block;}
+.gbposterity-dark-home-section2 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap a{text-decoration: none;}
+.gbposterity-dark-home-section3 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap{display: block;}
+.gbposterity-dark-home-section3 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap a{text-decoration: none;}
+.gbposterity-dark-home-section4 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap{display: block;}
+.gbposterity-dark-home-section4 .skt-blocks-buttons__outer-wrap .skt-blocks-buttons__wrap a{text-decoration: none;}
+.gbposterity-dark-home-section4 figure{margin: 0 auto !important;}
+.gbposterity-dark-home-section4 figure img{display: block;}
+.gbposterity-dark-home-section4 .responsive-columns-columns-4 .skt-blocks-advanced-column-child{border-right: solid 1px #37393E;}
+.gbposterity-dark-home-section4 .responsive-columns-columns-4 .skt-blocks-advanced-column-child:last-of-type{border: none;}
+.gbposterity-dark-home-section4 .responsive-columns-columns-4 .skt-blocks-advanced-column-child .responsive-heading-title-text{margin-top: 20px;}
+.gbposterity-dark-home-section5 .responsive-columns-inner-wrap .skt-blocks-advanced-column-child:after{content: ""; background-color: #26292e; height: 85%; width: 40px; position: absolute; top: 50%; right: -40px; transform: translate(0, -50%);}
+.gbposterity-dark-home-section5 .responsive-columns-inner-wrap .skt-blocks-advanced-column-child:last-of-type:after{display: none;}
+.gbposterity-dark-home-section5 .skt-blocks-ifb-desc{margin: 0;}
+.gbposterity-dark-home-section5 .skt-blocks-ifb-title{margin-top: 7px;}
+.gbposterity-dark-home-section7 figure{margin: 0 auto !important;}
+.gbposterity-dark-home-section7 .wp-block-image img{display: block;}
+.gbposterity-dark-home-section8 .responsive-columns-wrap:after{content: ""; background-color: #181a1f; height: 30px; width: 95%; position: absolute; bottom: -30px; z-index: 999; left: 50%; transform: translateX(-50%);}
+.gbposterity-dark-home-section9 .skt-blocks-block-team .skt-blocks-team-avatar{width: 100% !important;}
+.gbposterity-dark-home-section9 .skt-blocks-block-team .skt-blocks-team-avatar img{display: block; height: auto !important; width: 100% !important;}
+.gbposterity-dark-home-section9 .skt-blocks-block-team .skt-blocks-team-content{padding: 25px 15px;}
+
+@media (max-width: 1023px){
+    .gbposterity-dark-home-section2 .wp-block-image{text-align: center;}
+    .gbposterity-dark-home-section2 .responsive-heading-title-text{text-align: left;}
+    .gbposterity-dark-home-section3 .responsive-heading-title-text{text-align: left;}
+    .gbposterity-dark-home-section3 .skt-blocks-advanced-column-child:last-of-type .responsive-heading-title-text{text-align: center;}
+    .gbposterity-dark-home-section3 .responsive-columns-columns-3 .skt-blocks-advanced-column-child{margin: 10px;}
+    .gbposterity-dark-home-section4 .responsive-heading-title-text{text-align: left;}
+    .gbposterity-dark-home-section4 .responsive-columns-columns-4 .skt-blocks-advanced-column-child .responsive-heading-title-text{text-align: center;}
+    .gbposterity-dark-home-section5 .responsive-heading-title-text{text-align: left;}
+    .gbposterity-dark-home-section5 .responsive-columns-inner-wrap .skt-blocks-advanced-column-child::after{right: -30px; width: 30px;}
+    .gbposterity-dark-home-section7 .responsive-heading-title-text{text-align: left;}
+    .gbposterity-dark-home-section8 .responsive-heading-title-text{text-align: left;}
+    }
+
+@media (max-width: 976px){
+    .gbposterity-dark-home-section2 .skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap{display: flex;}
+    .gbposterity-dark-home-section2 .skt-blocks-infobox.skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap .skt-blocks-ifb-content,
+    .gbposterity-dark-home-section2 .skt-blocks-infobox.skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap .skt-blocks-ifb-imgicon-wrap{width: auto;}
+    .gbposterity-dark-home-section2 .skt-blocks-infobox__content-wrap.skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-icon-wrap{margin-right: 10px;}
+    .gbposterity-dark-home-section5 .skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap{display: flex;}
+    .gbposterity-dark-home-section5 .skt-blocks-infobox.skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap .skt-blocks-ifb-imgicon-wrap{width: auto;}
+    .gbposterity-dark-home-section8 .skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap{display: flex;}
+    .gbposterity-dark-home-section8 .skt-blocks-infobox.skt-blocks-infobox-stacked-tablet .skt-blocks-ifb-left-right-wrap .skt-blocks-ifb-imgicon-wrap{width: auto;}
+}
+
+@media (max-width: 767px){
+    .gbposterity-dark-home-section3 .responsive-columns-columns-3 .skt-blocks-advanced-column-child{margin: 0;}
+    .gbposterity-dark-home-section4 .responsive-columns-columns-4 .skt-blocks-advanced-column-child{border: none;}
+    .gbposterity-dark-home-section5 .responsive-columns-inner-wrap .skt-blocks-advanced-column-child::after{display: none;}
+}
